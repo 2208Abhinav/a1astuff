@@ -1,2 +1,2 @@
 # a1astuff
-Timepass!!
+This site was created to collect data about bunk.
