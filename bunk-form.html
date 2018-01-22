@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>A1A post winter break bunk</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+        .bg-1 { 
+          background-color: #39aaeb8a; /* Green */
+          color: #ffffff;
+          margin-bottom: 30px ;
+        }
+        .bg-2 { 
+            background-color: #474e5d; /* Dark Blue */
+            color: #ffffff;
+            margin-bottom: 30px ;
+        }
+        footer { 
+          background-color: #2f2f2f; /* Black Gray */
+          color: #fff;
+          position: relative ;
+          bottom: 0px ;
+          width: 100% ;
+        }
+        </style>
+    </head>
+    <body>
+            <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>                        
+                        </button>
+                        <a class="navbar-brand" href="http://a1astuff.000webhostapp.com">A1A Stuff</a>
+                      </div>
+                      <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#">Messages</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-right" role="search">
+                          <div class="form-group input-group">
+                            <input type="text" class="form-control" placeholder="Search..">
+                            <span class="input-group-btn">
+                              <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                              </button>
+                            </span>        
+                          </div>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="container bg-1 text-center">
+                        <h3 class="margin">A1A Post Winter Vacation Bunk</h3>
+                        <img src="images/winter.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+                        <h3>Review via form</h3>
+                  </div>
+                      
+
+        <div class="container bg-2">
+            <form action="http://a1astuff.000webhostapp.com/action-page.php" method="get">
+                <div class="form-group">
+                  <label for="name">Name :</label>
+                  <input type="text" class="form-control" name="student-name" required="required" id="name">
+                </div>
+                <div class="form-group">
+                  <label for="roll">Roll No. :</label>
+                  <input type="number" class="form-control" id="roll" name="roll-no" required="required">
+                </div>
+                    <p>Do you support for bunk ?</p>
+                    <div class="radio">
+                    <label><input type="radio" name="support" value="yes">YES</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="support" value="no">NO</label>
+                    </div>
+                    <p>If yes, then till which date ?</p>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="28j">28 Jan</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="29j">29 Jan</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="30j">30 Jan</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="31j">31 Jan</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="1f">1 Feb</label>
+                    </div>
+                    <div class="radio">
+                    <label><input type="radio" name="limit" value="lta">Less than above</label>
+                    </div>   
+                    <div class="form-group">
+                    <label for="suggestions">Suggestions :</label>
+                    <textarea class="form-control" rows="5" id="suggestions" name="suggest"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+              </form> 
+        </div>
+
+        <footer class="container-fluid bg-4 text-center">
+            <p>Site is under development</p> 
+        </footer>
+    </body>
+</html>
