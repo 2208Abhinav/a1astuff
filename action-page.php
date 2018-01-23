@@ -29,7 +29,7 @@
     </head>
     <body>
 <?php
-$conn = new mysqli('localhost' , 'id4263838_abstark2' , 'mark56inbound' , 'id4263838_bunkdata') ;
+$conn = new mysqli(/*confidential*/) ;
 if($conn->connect_error)    echo "Error!!" ;
 
 $name = $_GET['student-name'] ;
