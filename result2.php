@@ -160,7 +160,7 @@
             </div>
         <div class="container view-main">
             <?php 
-             $conn = new mysqli('localhost' , 'id4263838_abstark' , 'mark56inbound' , 'id4263838_comments') ;
+             $conn = new mysqli(/*confidential*/) ;
              $conn->set_charset('utf8mb4') ;
             if(($username)&&(isset($_POST['comment'])))
              {  
